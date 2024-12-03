@@ -47,4 +47,41 @@ const fontenehus = [
     adresse: 'Lihauggata 8B, 6003 Ålesund',
     nettside: 'https://www.fontenehuset-alesund.no/',
   },
+  {
+    navn: "Fontenehuset Bærum",
+    adresse: "Industriveien 2,1337 Sandvika",
+    nettside : "https://www.fontenehuset-baerum.no/ ",
+  }
 ];
+
+console.log(fontenehus[3].navn)
+console.log(fontenehus[0].adresse)
+
+const oppgave2 = document.querySelector("#oppgave2")
+oppgave2.href = fontenehus[2].nettside
+oppgave2.textContent = "link til fontenehuset Trondheim"
+
+
+
+
+let input = document.querySelector("#input")
+let addBtn = document.querySelector("#addBtn")
+let removeBtn = document.querySelector("#removeBtn")
+let liste = document.querySelector("#liste")
+
+let handleliste = ["melk,brød,egg,mel"]
+
+addBtn.addEventListener("click", function (e){
+  e.preventDefault();
+  let input = document.querySelector
+})
+let fruktdisk = [
+  "eple",
+  "pære",
+  "banan",
+  "appelsin"
+];
+console.log(fruktdisk[3])
+
+let paragraf = document.createElement("p");
+paragraf.textContent = fruktdisk[2];
